@@ -1,4 +1,5 @@
 import React from 'react'
+import Particles from 'react-particles'
 // import Typed from 'typed.js'
 import './First.css'
 
@@ -18,7 +19,9 @@ class First extends React.Component {
     }
     render() {
         return (
+
           <section className="first">
+            <Particles />
             <div className="element-wrap">
             <div className="element">
 
