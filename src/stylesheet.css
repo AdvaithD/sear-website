@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+
+body {
+  background-color: #1D1D1D;
+}
+
+body, html, #app, #app>div {
+  font-family: 'Titillium Web', sans-serif;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+}
+
+a > navbar-brand {
+  /*font-family: 'Roboto';*/
+  font-weight: bold;
+}
+section {
+  position: relative;
+  
+  text-align:center;
+  width: 100vw;
+  height: calc(100% - 56px);
+
+}
+section .section {
+  height: 100vh !important;
+}
+.element-wrap {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align:center;
+}
+.element {
+  /*height: auto;
+  display: block;
+  margin: 0 auto;*/
+  color: white;
+  font-size: 64px;
+  /*font-weight: bold;*/
+  line-height: 64px;
+  display: inline-block;
+
+}
+.element2 {
+  /*height: auto;
+  display: block;
+  margin: 0 auto;*/
+  color: white;
+  font-size: 64px;
+  /*font-weight: bold;*/
+  display: inline-block;
+
+}
+.typed-cursor{
+  color: white;
+    font-size: 64px;
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
