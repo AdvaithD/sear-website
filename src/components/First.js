@@ -1,5 +1,5 @@
 import React from 'react'
-import Particles from 'react-particles'
+// import Particles from 'react-particles'
 // import Typed from 'typed.js'
 import './First.css'
 
@@ -21,7 +21,7 @@ class First extends React.Component {
         return (
 
           <section className="first">
-            <Particles />
+            {/* <Particles /> */}
             <div className="element-wrap">
             <div className="element">
 
