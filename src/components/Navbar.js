@@ -4,7 +4,7 @@ class Navbar extends React.Component {
     render() {
         return (
           <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
-  <a class="navbar-brand" href="#">Sear</a>
+  <a class="navbar-brand" href="#"></a>
 
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav ml-auto">
@@ -15,7 +15,7 @@ class Navbar extends React.Component {
         <a class="nav-link" href="#">About</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Pricing</a>
+        <a class="nav-link" href="#">Projects</a>
       </li>
     </ul>
   </div>
